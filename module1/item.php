@@ -223,7 +223,8 @@
 </script>
 
 <script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/myjs.js"></script>
+<!--<script src="js/myjs.js"></script>-->
+<script src="js/itemcontroller.js"></script>
 <footer>
     <div style="width: 100%;height: 60px;background-color: #666666;">
         <div id="socialicon">
