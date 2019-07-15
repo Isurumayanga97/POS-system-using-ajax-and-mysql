@@ -138,7 +138,7 @@
                         <h4><a href="index.php" class="contentsidebar">Dashboard/</a>Item Form</h4>
                     </div>
                     <h4 class="ui dividing header" style="font-size: 20px;color: #0e8c8c">Item Information</h4><br>
-                    <div class="ui form">
+                    <form class="ui form">
                         <div class="two fields">
 
                             <div class="field">
@@ -154,34 +154,30 @@
 
                             <div class="field">
                                 <label style="font-size: 15px">Brand</label>
-                                <input placeholder="Brand" type="text" id="brand">
+                                <input placeholder="Brand" type="text" id="itembrand">
                             </div>
                             <div class="field">
                                 <label style="font-size: 15px">Pack Size</label>
-                                <input placeholder="Pack Size"  type="text" id="packsize">
+                                <input placeholder="Pack Size"  type="text" id="itempacksize">
                             </div>
                         </div>
                         <div class="two fields">
 
                             <div class="field">
                                 <label style="font-size: 15px">Quntity On Hand</label>
-                                <input placeholder="Quntity On Hand" type="text" id="qonhand">
+                                <input placeholder="Quntity On Hand" type="text" id="itemqty">
+                            </div>
+                        </div>
+                        <div class="two fields">
+
+                            <div class="field">
+                                <label style="font-size: 15px">Date</label>
+                                <input placeholder="Date" type="text" id="itemdate">
                             </div>
                         </div>
 
-                    </div>
-                    <form class="ui form">
-                        <form class="ui form">
-                            <div class="ui form">
-                                <div class="two fields">
-                                    <div class="field">
-                                        <label style="font-size: 15px">Date</label>
-                                        <input  type="text" placeholder="Date" id="date">
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
                     </form>
+
                     <br>
                     <table class="ui celled table" style="border: 1px solid black" id="itemtable">
                         <thead>
