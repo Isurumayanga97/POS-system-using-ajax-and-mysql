@@ -128,7 +128,7 @@
         </nav>
         <!--/////////////////////////////////////Close-Headbar///////////////////////////////////////////////////////////////////////-->
 
-        <!--////////////////////////////////////Close-Custsection/////////////////////////////////////////////////////////////////////////   -->
+        <!--////////////////////////////////////Open-Itemsection/////////////////////////////////////////////////////////////////////////   -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12" id="content">
@@ -178,22 +178,15 @@
 
                     </form>
 
-                    <br>
-                    <table class="ui celled table" style="border: 1px solid black" id="itemtable">
-                        <thead>
-                        <tr><th style="background: #ccccff">Item Code</th>
-                            <th style="background: #ccccff">Item Name</th>
-                            <th style="background: #ccccff">Brand</th>
-                            <th style="background: #ccccff">Pack Size</th>
-                            <th style="background: #ccccff">Quntity On Hand</th>
-                            <th style="background: #ccccff">Date</th>
-                            <th style="background: #00b300">Edit</th>
-                            <th style="background: #ff1a1a">Delete</th>
-                        </tr></thead>
-                        <tbody>
+                    <!-- LoardTable-->
 
-                        </tbody>
-                    </table>
+                    <br>
+                    <div class="row">
+                        <div id="itemTable"></div>
+                    </div>
+
+                    <!--LoardTable-->
+
 
                     <div class="ui buttons" style="position: fixed;top: 106px;right: 14px;">
                         <button class="ui button" style="background-color: #0d71bb" id="btnitemadd">Add Item</button>
@@ -202,7 +195,7 @@
                     </div>
 
                 </div>
-                <!--////////////////////////////////////Close-Custsection/////////////////////////////////////////////////////////////////////////          -->
+                <!--////////////////////////////////////Close-Itemsection/////////////////////////////////////////////////////////////////////////          -->
 
 
                 <div>
