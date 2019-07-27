@@ -50,7 +50,7 @@ include 'head.php';
                             <div class="card text-white bg-primary o-hidden h-100 cardone">
                                 <div class="card-body">
                                     <div class="card-body-icon">
-                                        <i class="fas fa-user-check fa-3x"><strong style="color: red">245+</strong></i>
+                                        <i class="fas fa-user-check fa-3x"><strong style="color: red">564+</strong></i>
                                     </div>
                                     <div class="mr-5"><h2>Customers</h2></div>
                                 </div>
